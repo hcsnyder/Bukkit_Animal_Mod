@@ -1,0 +1,20 @@
+main: com.github.hsnyder1.BukkitPlugin1.BukkitPlugin1
+name: BukkitPlugin1
+version: ${project.version}
+description: {project.description}
+commands:
+    plugin:
+        description: the base for this plugin
+        usage: /<plugin> command
+        permission: plugin.*
+permissions:
+    plugin.*:
+        description: permissions of all plugin commands
+        default: true
+        children:
+            plugin.position:
+                description: gives player's position
+            plugin.numPlayers:
+                description: gives number of players on server
+            plugin.heal:
+                description: heals player to full health
