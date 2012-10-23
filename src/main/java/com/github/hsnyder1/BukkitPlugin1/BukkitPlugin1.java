@@ -14,6 +14,8 @@ public class BukkitPlugin1 extends JavaPlugin{
 		
 		saveDefaultConfig();
 		
+		new BukkitPluginListener(this);
+		
 		this.getCommand("plugin").setExecutor(new BukkitPluginCommandExecutor(this));
 	}
 	

@@ -28,7 +28,7 @@
     	<scope>provided</scope>
     </dependency>
   </dependencies>
-  <description>Plugin for Bukkit that gives 3 new commands</description>
+  <description>Plugin for Bukkit that gives 4 new commands, a logger, and has a new eventListeners</description>
   <build>
     <resources>
        <resource>
