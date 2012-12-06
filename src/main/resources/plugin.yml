@@ -1,5 +1,5 @@
-main: com.github.hsnyder1.BukkitPlugin1.BukkitPlugin1
-name: BukkitPlugin1
+main: com.github.hsnyder1.Bukkit_Animal_Mod.Bukkit_Animal_Mod
+name: Bukkit_Animal_Mod
 version: ${project.version}
 description: {project.description}
 commands:
@@ -12,9 +12,11 @@ permissions:
         description: permissions of all plugin commands
         default: true
         children:
-            plugin.position:
-                description: gives player's position
-            plugin.numPlayers:
-                description: gives number of players on server
-            plugin.heal:
-                description: heals player to full health
+            plugin.give_me_leash:
+                description:  gives player the ingredients to make a leash.
+            plugin.give_me_saddle:
+                description: gives player saddles
+            plugin.give_me_bone:
+                description: gives player bones, tells them good choice
+            plugin.give_me_fish:
+                description: gives player fish, tells them dogs are better
