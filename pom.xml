@@ -40,7 +40,7 @@
         <version>dev-SNAPSHOT</version>
     </dependency>
   </dependencies>
-  <description>Plugin for Bukkit that gives 4 new commands, a logger, and has a new eventListeners</description>
+  <description>Plugin for Bukkit using Sprout that allows the player to ask for raw fish and bones to tame animals and the ingredients for a  a leash, a custom item, and saddles. It also allows the character to ride any friendly mob. Plans for more functionality are in the future.</description>
   <build>
     <resources>
        <resource>
